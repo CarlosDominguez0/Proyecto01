@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="115dp"
+        android:layout_height="41dp"
+        android:text="   Ringtones"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.071" />
+
+    <Button
+        android:id="@+id/botonllamada"
+        android:layout_width="68dp"
+        android:layout_height="45dp"
+        android:foreground="@drawable/play"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.069"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.189" />
+
+    <Button
+        android:id="@+id/botonmensaje1"
+        android:layout_width="66dp"
+        android:layout_height="48dp"
+        android:foreground="@drawable/play"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.069"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.298" />
+
+    <Button
+        android:id="@+id/botonmensaje2"
+        android:layout_width="64dp"
+        android:layout_height="47dp"
+        android:foreground="@drawable/play"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.083"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.415" />
+
+    <Button
+        android:id="@+id/botoncorreo"
+        android:layout_width="64dp"
+        android:layout_height="47dp"
+        android:foreground="@drawable/play"
+        android:text="Button"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="364dp" />
+
+    <TextView
+        android:id="@+id/textollamada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Llamada"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="137dp" />
+
+    <TextView
+        android:id="@+id/textomensaje1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mensaje01"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="218dp" />
+
+    <TextView
+        android:id="@+id/textomensaje2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mensaje02"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="299dp" />
+
+    <TextView
+        android:id="@+id/textocorreo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Correo"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="377dp" />
+
+    <Button
+        android:id="@+id/botoncompartir1"
+        android:layout_width="46dp"
+        android:layout_height="42dp"
+        android:background="@color/white"
+        android:foreground="@drawable/share"
+        android:text="Button"
+        tools:layout_editor_absoluteX="273dp"
+        tools:layout_editor_absoluteY="130dp" />
+
+    <Button
+        android:id="@+id/botoncompartir2"
+        android:layout_width="46dp"
+        android:layout_height="42dp"
+        android:background="@color/white"
+        android:foreground="@drawable/share"
+        android:text="Button"
+        tools:layout_editor_absoluteX="273dp"
+        tools:layout_editor_absoluteY="203dp" />
+
+    <Button
+        android:id="@+id/botoncompartir3"
+        android:layout_width="46dp"
+        android:layout_height="42dp"
+        android:background="@color/white"
+        android:foreground="@drawable/share"
+        android:text="Button"
+        tools:layout_editor_absoluteX="273dp"
+        tools:layout_editor_absoluteY="284dp" />
+
+    <Button
+        android:id="@+id/botoncompartir4"
+        android:layout_width="46dp"
+        android:layout_height="42dp"
+        android:background="@color/white"
+        android:foreground="@drawable/share"
+        android:text="Button"
+        tools:layout_editor_absoluteX="273dp"
+        tools:layout_editor_absoluteY="364dp" />
+
+    <Button
+        android:id="@+id/botonblu1"
+        android:layout_width="38dp"
+        android:layout_height="41dp"
+        android:
+        android:background="@color/black"
+        android:foreground="@drawable/blue"
+        android:text="Button"
+        tools:layout_editor_absoluteX="343dp"
+        tools:layout_editor_absoluteY="130dp" />
+
+    <Button
+        android:id="@+id/botonblu2"
+        android:layout_width="38dp"
+        android:layout_height="41dp"
+        android:
+        android:background="@color/white"
+
+        android:foreground="@drawable/blue"
+        android:text="Button"
+        tools:layout_editor_absoluteX="343dp"
+        tools:layout_editor_absoluteY="204dp" />
+
+    <Button
+        android:id="@+id/botonblu3"
+        android:layout_width="38dp"
+        android:layout_height="41dp"
+        android:
+        android:background="@color/white"
+        android:foreground="@drawable/blue"
+        android:text="Button"
+        tools:layout_editor_absoluteX="343dp"
+        tools:layout_editor_absoluteY="285dp" />
+
+    <Button
+        android:id="@+id/botonblu4"
+        android:layout_width="38dp"
+        android:layout_height="41dp"
+        android:
+        android:background="@color/white"
+        android:foreground="@drawable/blue"
+        android:text="Button"
+        tools:layout_editor_absoluteX="343dp"
+        tools:layout_editor_absoluteY="364dp" />
+
+    <Button
+        android:id="@+id/botondescarga1"
+        android:layout_width="40dp"
+        android:layout_height="36dp"
+        android:foreground="@android:drawable/stat_sys_download"
+        android:text="Button"
+        tools:layout_editor_absoluteX="202dp"
+        tools:layout_editor_absoluteY="130dp" />
+
+    <Button
+        android:id="@+id/botondescarga2"
+        android:layout_width="40dp"
+        android:layout_height="36dp"
+        android:foreground="@android:drawable/stat_sys_download"
+        android:text="Button"
+        tools:layout_editor_absoluteX="202dp"
+        tools:layout_editor_absoluteY="201dp" />
+
+    <Button
+        android:id="@+id/botondescarga3"
+        android:layout_width="40dp"
+        android:layout_height="36dp"
+        android:foreground="@android:drawable/stat_sys_download"
+        android:text="Button"
+        tools:layout_editor_absoluteX="202dp"
+        tools:layout_editor_absoluteY="284dp" />
+
+    <Button
+        android:id="@+id/botondescarga4"
+        android:layout_width="40dp"
+        android:layout_height="36dp"
+        android:foreground="@android:drawable/stat_sys_download"
+        android:text="Button"
+        tools:layout_editor_absoluteX="202dp"
+        tools:layout_editor_absoluteY="369dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
